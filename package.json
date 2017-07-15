@@ -22,6 +22,11 @@
     "hoek": "4.x.x"
   },
   "scripts": {
-    "start": "node lib/index.js"
+    "test": "lab -cLv -t 100",
+    "start": "node lib/start.js"
+  },
+  "devDependencies": {
+    "code": "^4.1.0",
+    "lab": "^14.1.0"
   }
 }
